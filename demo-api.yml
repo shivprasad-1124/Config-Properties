@@ -2,15 +2,15 @@ server:
   port: 8082
 spring:
   boot:
-   admin:
-    client:
-     url: http://localhost:1111
+    admin:
+      client:
+        url: http://localhost:1111
 
-  management:
-   endpoints:
+management:
+  endpoints:
     web:
-     exposure:
-      include: "*"
+      exposure:
+         include: "*"
  
 
   
