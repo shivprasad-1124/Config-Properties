@@ -1,8 +1,6 @@
 server:
- port: 8082
-
-
- spring:
+  port: 8082
+spring:
   boot:
    admin:
     client:
@@ -13,5 +11,6 @@ server:
     web:
      exposure:
       include: "*"
+ 
 
   
