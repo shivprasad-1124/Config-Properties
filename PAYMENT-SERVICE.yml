@@ -1,0 +1,30 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Razor_pay
+    username: root
+    password: Shivu@1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+razorpay:
+  key:
+    id: rzp_test_TY318kiw8LsVRG
+    secret: umdBoTZpnQznUsbLqM6JALxq
